@@ -4,13 +4,9 @@ public class Main {
         NotificationService emailnotification=new NotificationService(new EmailService());
         emailnotification.Notify("hello");
 
-         NotificationService smsnotification=new NotificationService(new SMSService());
+        NotificationService smsnotification=new NotificationService(new SMSService());
         smsnotification.Notify("yout otp is 1234");
 
-       
-
-        
-        
     }
     
 }
