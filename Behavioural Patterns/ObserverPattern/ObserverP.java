@@ -64,6 +64,7 @@ public class ObserverP {
         station.attach(g1);
         station.attach(m1);
         station.setTemperature(23.2f);
+        
     }
     
 }
