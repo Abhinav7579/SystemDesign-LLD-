@@ -1,7 +1,7 @@
 public class CommandPattern {
     public static void main(String[] args) {
         TextEditor te=new TextEditor();
-         Button bt=new Button();
+        Button bt=new Button();
         BoldCommand bc=new BoldCommand(te);
        
         bt.setCommand(bc);
