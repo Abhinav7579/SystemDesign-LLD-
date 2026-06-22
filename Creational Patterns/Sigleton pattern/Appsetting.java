@@ -6,8 +6,6 @@ public class Appsetting {
     private static Appsetting instance;
 
 
-
-
     private String databaseURL;
     private String apiURL;
 
