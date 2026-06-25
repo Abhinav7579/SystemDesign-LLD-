@@ -5,7 +5,7 @@ public class Client {
         Image img2=new ProxyImage("cat.png");
 
         img1.display();
-        img1.display();
+        img1.display();  //caching as img1 is already formed
 
 
     }
